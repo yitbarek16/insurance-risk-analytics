@@ -1,0 +1,24 @@
+{
+  // Python Configuration
+  "python.defaultInterpreterPath": ".venv\\Scripts\\python.exe",
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": true,
+  "python.formatting.provider": "black",
+  "python.formatting.blackArgs": ["--line-length", "88"],
+  "python.testing.pytestEnabled": true,
+  "python.testing.pytestArgs": [
+    "--cov=src",
+    "--cov-report=term-missing"
+  ],
+
+  // Windows-specific settings
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.shell.windows": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+  "terminal.integrated.env.windows": {
+    "PYTHONPATH": "${workspaceFolder}\\src"
+  },
+
+  // Additional Windows compatibility
+  "files.eol": "\n",  // Force Unix line endings
+  "python.analysis.extraPaths": ["./src"]
+}
