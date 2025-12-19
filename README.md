@@ -1,5 +1,10 @@
 # 🛡️ Insurance Risk Analytics & Predictive Pricing
 
+[![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/)
+[![DVC](https://img.shields.io/badge/DVC-enabled-lightgrey.svg)](https://dvc.org/)
+[![Jupyter Notebook](https://img.shields.io/badge/jupyter-notebook-orange.svg)](https://jupyter.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 ## 📘 Overview
 
 Insurance companies face a critical challenge: pricing policies accurately while remaining profitable. Charging too little leads to losses, while charging too much drives customers away.
